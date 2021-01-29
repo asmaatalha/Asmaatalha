@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding-right: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    font-weight: bold;
+    font-size: 20px;
+}
