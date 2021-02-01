@@ -68,3 +68,6 @@ div.photo img {
     margin: 3px;
     line-height: 5px;
 }
+section {
+    display: flex;
+}
