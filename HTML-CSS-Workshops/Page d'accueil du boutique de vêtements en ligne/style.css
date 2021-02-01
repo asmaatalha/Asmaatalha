@@ -1,0 +1,36 @@
+.text {
+    background: rgb(53, 158, 153);
+    border: 20px;
+    color: rgb(240, 240, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px; 
+}
+div.text1 {
+    background: rgb(53, 158, 153);
+    border: 20px;
+    color: rgb(240, 240, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px; 
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    border:  2px solid;
+    padding: 20px;
+    margin: auto;
+}
+.test:before{
+    content: '<';
+}
+.test:after{
+    content: '>';
+}
+
