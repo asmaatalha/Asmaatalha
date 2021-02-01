@@ -1,0 +1,32 @@
+body {
+    background-image:  url('OIP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    display: grid;
+}
+input ,select{
+    padding: 10px;
+}
+div {
+    background: rgb(46, 34, 51);
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    border-radius: 20px;
+}
+.test {
+    color: rgb(201, 74, 144);
+    font-size: 20px;
+    margin: 15px;
+}
+#other{
+margin-top: 35px;
+border-radius: 15px;
+}
+#other:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: blueviolet;
+}
