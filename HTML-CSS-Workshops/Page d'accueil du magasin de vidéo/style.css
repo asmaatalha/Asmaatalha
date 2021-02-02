@@ -1,73 +1,80 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-ul{
-    list-style-type: none;
-}
-li{
-    float: left;
-    padding-right: 30px;
-}
-a:hover{
-    text-decoration: underline;
-}
 
-ol{
-    list-style-type: none;
-}
-.navi1 {
-    font-weight: bold;
-    font-size: 20px;
-}
-.navi2{
-    font-size: 20px;
-}
-.navi2:before {
-    padding-right: 20px;
-    content: '/';
-}
-.intro1 {
-    float: left;
-    padding-left: 40px;
-}
-.intro2 {
-    margin-top: 65px;
-    margin-left: 40px;
-    margin-right: 550px;
-}
-div.photo {
-    margin: 40px;
-    border: 1px solid #ccc;
-    float: center;
-    width: 150px;
-    height: 210px;
-    padding: 8px;
-}
-div.photo img {
-    width: 149px;
-    height: 150px;
-}
-.carte1 {
-    font-size: 15px;
-    margin: 6px;
-}
-.carte2 {
-    color: grey;
-    margin: 3px;
-    font-size: 8px;
-    line-height: 4px;
-}
-.carte3 {
-    font-size: 8px;
-    margin: 3px;
-    line-height: 14px;
-}
-.carte4 {
-    color: rgb(45, 173, 109);
-    font-size: 8px;
-    margin: 3px;
-    line-height: 5px;
-}
-section {
-    display: flex;
-}
+    body{
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul{
+        list-style-type: none;
+    }
+    li{
+        float: left;
+        padding-right: 30px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    ol{
+        list-style-type: none;
+    }
+    .navi1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .asmaa {
+        font-size: 20px;
+        
+        
+    }
+    .navi2:before {
+        padding-right: 20px;
+        content: '/';
+    }
+    .intro1 {
+        float: left;
+        padding-left: 40px;
+    }
+    .intro2 {
+
+            margin-top: 80px;
+ 
+    }
+    div.photo {
+        margin: 40px;
+        border: 1px solid #ccc;
+        width: 150px;
+        height: 210px;
+        padding: 8px;        
+        flex-wrap: wrap;
+    }
+    div.photo img {
+        width: 149px;
+        height: 150px;
+    }
+    .carte1 {
+        font-size: 15px;
+        margin: 6px;
+    }
+    .carte2 {
+        color: rgb(128, 128, 128);
+        margin: 3px;
+        font-size: 8px;
+        line-height: 4px;
+    }
+    .carte3 {
+        font-size: 8px;
+        margin: 3px;
+        line-height: 14px;
+    }
+    .carte4 {
+        color: rgb(45, 173, 109);
+        font-size: 8px;
+        margin: 3px;
+        line-height: 5px;
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }

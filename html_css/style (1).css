@@ -1,10 +1,10 @@
-body {
+div {
 	box-sizing: border-box;
-	background-color: #eeeae4;
+	background-color: #cfa15c;
 }
 p {
-	
 	font-family: Arial, Helvetica, sans-serif;
+	color: teal;
 }
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
