@@ -1,6 +1,4 @@
-
-    body{
-    
+ body{
         font-family: Arial, Helvetica, sans-serif;
     }
     ul{
@@ -13,7 +11,6 @@
     a:hover{
         text-decoration: underline;
     }
-    
     ol{
         list-style-type: none;
     }
@@ -22,9 +19,7 @@
         font-size: 20px;
     }
     .asmaa {
-        font-size: 20px;
-        
-        
+        font-size: 20px;   
     }
     .navi2:before {
         padding-right: 20px;
@@ -35,9 +30,7 @@
         padding-left: 40px;
     }
     .intro2 {
-
-            margin-top: 80px;
- 
+         margin-top: 80px;
     }
     div.photo {
         margin: 40px;
@@ -76,5 +69,4 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
     }

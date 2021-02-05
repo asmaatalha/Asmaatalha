@@ -1,5 +1,4 @@
 body{
-    
     font-family: Arial, Helvetica, sans-serif;
 }
 ul{
@@ -12,10 +11,8 @@ li{
 a:hover{
     text-decoration: underline;
 }
-
 ol{
     list-style-type: none;
-
 }
 .navi1 {
     font-weight: bold;
@@ -25,7 +22,6 @@ ol{
     font-size: 15px;
     flex-wrap: wrap;
     text-align: left;
-
 }
 .navi2:before {
     padding-right: 20px;
@@ -76,4 +72,3 @@ div.photo img {
 section{
     justify-content: center;
 }
-
