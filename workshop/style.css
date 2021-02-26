@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+h1{
+    width: 33.2ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: tapper 3s steps(35), blink .5s infinite;
+    border-right: 3px solid;
+}
+
+@keyframes tapper{
+    from {
+        width: 0ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
