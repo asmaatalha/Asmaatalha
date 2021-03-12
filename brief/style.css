@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'arial';
+    color:rgb(168, 34, 108);
+    font-size: 25px;
+    line-height: 1.5em;
+    /* background:black; */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.titleBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(22, 44, 168);
+    border-style: solid;
+    margin-top: 1em;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 122);
+    color: crimson;
+    font-size: 60%;
+}
+
+.messages{
+    background-color: rgb(75, 75, 122);
+    align-items:flex-end;
+    border-color: rgb(22, 44, 168);;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 1em;
+    height: 50vh;
+    padding: 2em;
+    overflow: auto;
+}
+
+.messages::-webkit-scrollbar{
+    display: none;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    height: 10vh;
+   
+}
+
+#utilisateur {
+    width: 25%;
+    
+}
+
+#message {
+    width: 55%;
+}
+
