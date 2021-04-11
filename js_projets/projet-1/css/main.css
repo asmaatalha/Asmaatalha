@@ -1,0 +1,36 @@
+:root {
+  --lightYellow: #e6f0b9;
+  --mainDarkGrey: #252424;
+  --mainBlack: #333333;
+}
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: var(--lightYellow);
+}
+.message-container {
+  width: 900px;
+  height: 400px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  background: var(--mainDarkGrey);
+}
+.message-content {
+  color: var(--lightYellow);
+}
+#submitBtn {
+  background: var(--lightYellow);
+  color: var(--mainDarkGrey);
+}
+#submitBtn:hover {
+  color: var(--lightYellow);
+  color: var(--mainBlack);
+}
+
+.feedback {
+  display: none;
+}
+
+.show {
+  display: block;
+}
