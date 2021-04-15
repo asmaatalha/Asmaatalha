@@ -1,13 +1,7 @@
-var btn = document.querySelector(".addItems-submit");
+const msg = document.querySelector(".addItems-input");
 
-var msg = document.querySelector(".displayItems-clear");
+const btn = document.querySelector(".addItems-submit");
 
+const displayItems = document.querySelector(".displayItems-container");
 
-
-btn.onclick = function(ele){
-
-    ele.preventDefault();
-
-    
-
-}
+const btn2 = document.querySelector(".displayItems-clear");
